@@ -1,0 +1,48 @@
+div {
+    background-color: var(--background-color);
+}
+
+.cupcakes {
+    text-align: center;
+}
+
+.products-row {
+    text-align: center;
+}
+
+.products-row img {
+    height: 11rem;
+    width: 9rem;
+}
+
+.products-row h3 {
+    color: var(--secondary-color);
+}
+
+.wedding-cakes {
+    text-align: center;
+}
+
+/* Tablets */
+
+@media (min-width: 550px) {
+    .products-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 0 15rem;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 750px) {
+    .products-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 0 15rem;
+    }
+}

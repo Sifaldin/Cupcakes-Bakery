@@ -2,7 +2,7 @@ a {
     color: var(--secondary-color);
     font-weight: bold;
     letter-spacing: 1px;
-    padding: 2rem;
+    padding: 0 2rem;
     text-decoration: none;
 }
 

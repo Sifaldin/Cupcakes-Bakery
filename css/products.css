@@ -6,6 +6,11 @@ div {
     text-align: center;
 }
 
+.product-img{
+    border-radius: 50%;
+    border: solid var(--secondary-color);   
+}
+
 .products-row {
     text-align: center;
 }
@@ -28,6 +33,7 @@ div {
 @media (min-width: 550px) {
     .products-row {
         display: grid;
+        column-gap: 2px;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         justify-content: space-evenly;
@@ -39,10 +45,13 @@ div {
 
 @media (min-width: 750px) {
     .products-row {
+  
         display: grid;
+        column-gap: 2px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
         justify-content: space-evenly;
+        
         padding: 0 15rem;
     }
 }
